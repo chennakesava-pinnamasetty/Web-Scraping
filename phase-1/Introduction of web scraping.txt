@@ -1,0 +1,41 @@
+Web Scraping : 
+
+      
+      Web scraping means automatically collecting data from websites using code instead of copying and 
+      pasting information 
+              
+             Ex:  Flipkart, Amazon ( Price Comparison )
+
+
+Uses of Web Scraping :
+         
+         1. Financial Data Collection
+         2. Social Media
+         3.Price comparison tools
+         4.Data Analytics
+
+
+Tools :
+ I used the these tools
+
+
+        1. Requests – it is a Python library used to send HTTP/HTTPS requests to websites.
+
+        2. BeautifulSoup – We use BeautifulSoup to easily extract data from HTML webpages.
+
+        3. Scrapy – Scrapy is used when you want to scrape many pages fast and efficiently.
+
+        4. Selenium – forSelenium is a browser automation tool used to control a real web browser using code.
+
+
+
+Web Scraping Works
+
+         You send a request to a website
+
+         The website sends back HTML code
+
+         Your program extracts needed data
+
+         You save it (CSV, Excel, database)
+
