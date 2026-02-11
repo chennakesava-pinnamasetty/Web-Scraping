@@ -1,0 +1,61 @@
+What is the BeatifulSoap ?
+
+this converts messy HTML structure into understandable HTML structure.
+
+whenever we download a webpage using "requests", we only get raw HTML code, like messy structure hard to find specific one wht we want.
+
+
+BeatifulSoup helps you:
+
+
+     Read that HTML
+
+     Navigate through tags
+
+     Extract specific data (like titles, prices, links, etc.)
+
+     Clean and organise webpage data
+
+It is part of the bs4 package.
+
+
+
+
+Steps of BeatifulSoup in Web Scraping :
+
+In web scraping, we usually follow this process:
+
+Send request to website → get HTML
+
+Parse HTML → understand structure
+
+Extract required data
+
+
+
+
+Without BeautifulSoup:
+
+You will only see messy HTML text.
+
+Hard to find specific data.
+
+
+With BeautifulSoup:
+
+You can easily find tags like <h1>, <p>, <div>, <a>
+
+You can search by class, id, tag name
+
+You can extract clean text
+
+
+
+here used some tools:
+
+requests → downloads webpage
+
+BeautifulSoup → reads HTML
+
+find() → finds specific tag
+
