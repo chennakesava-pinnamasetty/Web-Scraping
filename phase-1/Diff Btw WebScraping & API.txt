@@ -1,0 +1,81 @@
+Web Scraping 
+
+Web scraping is an automated technique used to extract data from websites. Instead of manually copying and pasting information 
+Web scraping means automatically collecting data from websites using code instead of copy-paste. 
+
+How Web Scraping Works 
+1. You send a request to a website 
+
+2. The website sends back HTML code 
+
+3. Your program extracts needed data 
+
+4. You save it (CSV, Excel, database) 
+
+          Flow Chat : Website → HTML → Scraper → Clean Data 
+
+
+
+Common Tools (Beginner-Friendly) 
+
+Python Libraries 
+
+• Requests – get website content 
+• BeautifulSoup – read HTML & extract data 
+• Scrapy – fast & powerful for big projects 
+• Selenium – for dynamic websites (JS-based) 
+
+
+
+
+API : Application Programming Interface. 
+
+An API is a bridge that allows two applications to talk to each other. 
+An API is a bridge that allows two applications to communicate with each other. 
+In web scraping, an API is a direct way to get data from a website’s server without extracting it from HTML pages. 
+
+
+Simple Explanation 
+
+There are two ways to get data from a website: 
+1. Scraping HTML pages (using BeautifulSoup, Scrapy, Selenium) 
+2. Using an API (if the website provides one) 
+
+API is the clean and official way to get data. 
+Web scraping is used when there is no API. 
+
+
+Simple Difference (One Line) 
+• API → Website gives data officially 
+• Web Scraping → You take data from website HTML 
+
+
+Example : 
+
+Suppose you want movie data. 
+
+Without API (Scraping) 
+
+You: 
+• Send request to website 
+• Get HTML 
+• Parse HTML 
+• Extract titles manually 
+
+
+With API 
+
+You: 
+• Send request to API endpoint 
+• Get data directly in JSON format 
+• No need to parse HTML 
+ 
+ 
+API Web Scraping 
+
+Official & legal Sometimes risky 
+Clean data (JSON/XML) Messy HTML 
+Fast & stable Can break 
+Permission-based Can be blocked 
+ 
+   Always prefer API if available
